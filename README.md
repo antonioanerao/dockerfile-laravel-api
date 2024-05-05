@@ -1,18 +1,12 @@
-### Docker Image for Laravel Projects
+### Docker Image for Laravel API Projects
 
-[![Docker](https://github.com/antonioanerao/dockerfile-laravel/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/antonioanerao/dockerfile-laravel/actions/workflows/docker-publish.yml)
+[![Docker](https://github.com/antonioanerao/dockerfile-laravel-api/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/antonioanerao/dockerfile-laravel-api/actions/workflows/docker-publish.yml)
 
 #### Nginx Version
-    1.25.4
+    1.25.5
 
 #### PHP Version
-    8.2.7
-
-#### NODE Version
-    18.20.0
-
-### NPM Version
-    10.5.0
+    8.2.18
 
 #### PHP Extensions
     php8.2-fpm
@@ -50,4 +44,4 @@
     $ docker build -t laravel .
 
 #### Do you prefer a Docker Image instead?
-    https://hub.docker.com/r/antonioanerao/laravel
+    https://hub.docker.com/r/antonioanerao/laravel-api
